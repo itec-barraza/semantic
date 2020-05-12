@@ -13,15 +13,19 @@
 </head>
 <body>
     <div class="ui borderless green inverted menu">
-      <a class="item" href="index.html">
-        <img class="ui image" src="images/logo.png">
-      </a>
-      <div class="right menu">
-        <a class="item" href="faqs.html">Faqs<a>
-        <a class="item" href="#">Producto y descripción</a></li>
+      <a class="item" href="index.html"> <img class="ui image" src="images/logo.png"> </a>
+      <div class="right item">
+        <a class="item" href="faqs.html">Faqs</a>
+        <a class="item" href="#">Producto y descripción</a>
       </div>
     </div>
-<br><br><br><br><br>
+    <!-- <div class="ui very padded borderless segment">
+      <p></p>
+      <div class="right item">
+        <a class="item"> asdasd</a>
+      </div>
+    </div>  el Navbar puede ser con segment tambien pero no tiene mucho control con los elementos -->
+    <br><br><br><br><br>
     <div class="ui centered stackable grid">
         <div class="four wide column">
           <div class="ui segment">
@@ -49,11 +53,15 @@
                     <label>Teléfono</label>
                     <input type="text" name="telefono" placeholder="">
                   </div>
-                <button type="submit" class="fluid ui green button" formaction="https://www.google.com" >Confirmar pago</button> <!-- &submit= confirmar pago ??????-->
-              </form>
+                <button type="submit" class="fluid ui green button" formaction="https://www.google.com" formtarget="_blank" >Confirmar pago</button>
+            </form>
           </div>
         </div>
-      </div>
-      
+    </div>
+    <br><br><br><br><br>
+    <div class="ui horizontal segments">
+      <div class="ui black inverted segment">Términos y condiciones</div>
+      <div class="ui black inverted right aligned segment">contacto@brand.com</div>
+    </div>      
 </body>
 </html>
